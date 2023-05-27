@@ -12,11 +12,9 @@ import com.fasterxml.jackson.annotation.JsonProperty
         "Director",
         "Writer",
         "Actors",
-        "Plot",
         "Language",
         "Country",
         "Awards",
-        "Poster",
         "Ratings",
         "Metascore",
         "imdbRating",
@@ -35,5 +33,9 @@ data class Movie(
     @JsonProperty("Title")
     var title: String,
     @JsonProperty("Year")
-    var year: Int
+    var year: Int,
+    @JsonProperty("Plot")
+    var plot: String,
+    @JsonProperty("Poster")
+    var posterUrl: String
 )
