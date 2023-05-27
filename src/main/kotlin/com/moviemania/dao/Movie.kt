@@ -9,7 +9,6 @@ import com.fasterxml.jackson.annotation.JsonProperty
         "Released",
         "Runtime",
         "Genre",
-        "Director",
         "Writer",
         "Actors",
         "Language",
@@ -17,9 +16,7 @@ import com.fasterxml.jackson.annotation.JsonProperty
         "Awards",
         "Ratings",
         "Metascore",
-        "imdbRating",
         "imdbVotes",
-        "Type",
         "DVD",
         "BoxOffice",
         "Production",
@@ -32,10 +29,16 @@ data class Movie(
     var imdbId: String,
     @JsonProperty("Title")
     var title: String,
+    @JsonProperty("Type")
+    var type: String,
     @JsonProperty("Year")
     var year: Int,
+    @JsonProperty("Director")
+    var director: String,
     @JsonProperty("Plot")
     var plot: String,
     @JsonProperty("Poster")
-    var posterUrl: String
+    var posterUrl: String,
+    @JsonProperty("imdbRating")
+    var imdbRating: Double
 )
