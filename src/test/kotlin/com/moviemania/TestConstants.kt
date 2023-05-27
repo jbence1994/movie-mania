@@ -1,5 +1,7 @@
-package com.moviemania.constants
+package com.moviemania
 
+const val OMDB_BASE_URL = "http://www.omdbapi.com/"
+const val OMDB_API_KEY = "OMDB_API_KEY"
 const val MOVIE_RESPONSE_STRING = "{" +
     "\"Title\":\"Avengers: Endgame\"," +
     "\"Year\":\"2019\"," +
@@ -27,7 +29,6 @@ const val MOVIE_RESPONSE_STRING = "{" +
     "\"Website\":\"N/A\"," +
     "\"Response\":\"True\"" +
     "}"
-
 const val SERIES_RESPONSE_STRING = "{" +
     "\"Title\":\"Breaking Bad\"," +
     "\"Year\":\"2008–2013\"," +
