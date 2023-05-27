@@ -1,7 +1,10 @@
 package com.moviemania
 
+const val APPLICATION_JSON = "application/json"
 const val OMDB_BASE_URL = "http://www.omdbapi.com/"
 const val OMDB_API_KEY = "OMDB_API_KEY"
+const val AVENGERS_ENDGAME_IMDB_ID = "tt4154796"
+const val BREAKING_BAD_IMDB_ID = "tt0903747"
 const val MOVIE_RESPONSE_STRING = "{" +
     "\"Title\":\"Avengers: Endgame\"," +
     "\"Year\":\"2019\"," +
