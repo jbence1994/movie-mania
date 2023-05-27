@@ -3,6 +3,6 @@ spring:
     activate:
       on-profile: default
 
-movie-api:
+open-movie-database-api:
   baseUrl: http://www.omdbapi.com/
   apiKey: d88933c8
