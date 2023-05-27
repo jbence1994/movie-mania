@@ -8,6 +8,9 @@ import okhttp3.Request
 import okhttp3.Response
 import org.springframework.stereotype.Component
 
+// Movie: https://www.omdbapi.com/?i=tt4154796&apiKey=d88933c8
+// Series: https://www.omdbapi.com/?i=tt0903747&apiKey=d88933c8
+
 @Component
 class MovieOperations(
     private val openMovieDatabaseAPIConfigurations: OpenMovieDatabaseAPIConfigurations,
@@ -18,7 +21,7 @@ class MovieOperations(
         val (baseUrl, apiKey) = openMovieDatabaseAPIConfigurations
 
         val request: Request = Request.Builder()
-            .url("$baseUrl?i=$imdbId&apiKey=$apiKey") // https://www.omdbapi.com/?i=tt2015381&apiKey=d88933c8
+            .url("$baseUrl?i=$imdbId&apiKey=$apiKey")
             .get()
             .build()
         val response: Response = okHttpClient.newCall(request).execute()

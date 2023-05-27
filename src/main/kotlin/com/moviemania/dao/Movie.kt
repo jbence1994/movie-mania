@@ -21,6 +21,7 @@ import com.fasterxml.jackson.annotation.JsonProperty
         "BoxOffice",
         "Production",
         "Website",
+        "totalSeasons",
         "Response"
     ]
 )
@@ -32,7 +33,7 @@ data class Movie(
     @JsonProperty("Type")
     var type: String,
     @JsonProperty("Year")
-    var year: Int,
+    var year: String,
     @JsonProperty("Director")
     var director: String,
     @JsonProperty("Plot")

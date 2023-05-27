@@ -1,29 +1,54 @@
 package com.moviemania.constants
 
-const val RESPONSE_STRING = "{" +
-    "\"Title\":\"The Social Network\"," +
-    "\"Year\":\"2010\"," +
+const val MOVIE_RESPONSE_STRING = "{" +
+    "\"Title\":\"Avengers: Endgame\"," +
+    "\"Year\":\"2019\"," +
     "\"Rated\":\"PG-13\"," +
-    "\"Released\":\"01 Oct 2010\"," +
-    "\"Runtime\":\"120 min\"," +
-    "\"Genre\":\"Biography, Drama\"," +
-    "\"Director\":\"David Fincher\"," +
-    "\"Writer\":\"Aaron Sorkin, Ben Mezrich\"," +
-    "\"Actors\":\"Jesse Eisenberg, Andrew Garfield, Justin Timberlake\"," +
-    "\"Plot\":\"As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea and by the co-founder who was later squeezed out of the business.\"," +
-    "\"Language\":\"English, French\"," +
+    "\"Released\":\"26 Apr 2019\"," +
+    "\"Runtime\":\"181 min\"," +
+    "\"Genre\":\"Action, Adventure, Drama\"," +
+    "\"Director\":\"Anthony Russo, Joe Russo\"," +
+    "\"Writer\":\"Christopher Markus, Stephen McFeely, Stan Lee\"," +
+    "\"Actors\":\"Robert Downey Jr., Chris Evans, Mark Ruffalo\"," +
+    "\"Plot\":\"After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.\"," +
+    "\"Language\":\"English, Japanese, Xhosa, German\"," +
     "\"Country\":\"United States\"," +
-    "\"Awards\":\"Won 3 Oscars. 173 wins & 186 nominations total\"," +
-    "\"Poster\":\"https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg\"," +
-    "\"Ratings\":[{\"Source\":\"Internet Movie Database\",\"Value\":\"7.8/10\"},{\"Source\":\"Rotten Tomatoes\",\"Value\":\"96%\"},{\"Source\":\"Metacritic\",\"Value\":\"95/100\"}]," +
-    "\"Metascore\":\"95\"," +
-    "\"imdbRating\":\"7.8\"," +
-    "\"imdbVotes\":\"720,932\"," +
-    "\"imdbID\":\"tt1285016\"," +
+    "\"Awards\":\"Nominated for 1 Oscar. 70 wins & 133 nominations total\"," +
+    "\"Poster\":\"https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg\"," +
+    "\"Ratings\":[{\"Source\":\"Internet Movie Database\",\"Value\":\"8.4/10\"},{\"Source\":\"Rotten Tomatoes\",\"Value\":\"94%\"},{\"Source\":\"Metacritic\",\"Value\":\"78/100\"}]," +
+    "\"Metascore\":\"78\"," +
+    "\"imdbRating\":\"8.4\"," +
+    "\"imdbVotes\":\"1,172,062\"," +
+    "\"imdbID\":\"tt4154796\"," +
     "\"Type\":\"movie\"," +
-    "\"DVD\":\"11 Jan 2011\"," +
-    "\"BoxOffice\":\"\$96,962,694\"," +
+    "\"DVD\":\"30 Jul 2019\"," +
+    "\"BoxOffice\":\"\$858,373,000\"," +
     "\"Production\":\"N/A\"," +
     "\"Website\":\"N/A\"," +
+    "\"Response\":\"True\"" +
+    "}"
+
+const val SERIES_RESPONSE_STRING = "{" +
+    "\"Title\":\"Breaking Bad\"," +
+    "\"Year\":\"2008–2013\"," +
+    "\"Rated\":\"TV-MA\"," +
+    "\"Released\":\"20 Jan 2008\"," +
+    "\"Runtime\":\"49 min\"," +
+    "\"Genre\":\"Crime, Drama, Thriller\"," +
+    "\"Director\":\"N/A\"," +
+    "\"Writer\":\"Vince Gilligan\"," +
+    "\"Actors\":\"Bryan Cranston, Aaron Paul, Anna Gunn\"," +
+    "\"Plot\":\"A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.\"," +
+    "\"Language\":\"English, Spanish\"," +
+    "\"Country\":\"United States\"," +
+    "\"Awards\":\"Won 16 Primetime Emmys. 155 wins & 247 nominations total\"," +
+    "\"Poster\":\"https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_SX300.jpg\"," +
+    "\"Ratings\":[{\"Source\":\"Internet Movie Database\",\"Value\":\"9.5/10\"},{\"Source\":\"Rotten Tomatoes\",\"Value\":\"96%\"}]," +
+    "\"Metascore\":\"N/A\"," +
+    "\"imdbRating\":\"9.5\"," +
+    "\"imdbVotes\":\"1,963,281\"," +
+    "\"imdbID\":\"tt0903747\"," +
+    "\"Type\":\"series\"," +
+    "\"totalSeasons\":\"5\"," +
     "\"Response\":\"True\"" +
     "}"
