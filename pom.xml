@@ -85,6 +85,7 @@
                     <excludes>
                         <exclude>com/moviemania/api/*</exclude>
                         <exclude>com/moviemania/config/*</exclude>
+                        <exclude>com/moviemania/dao/*</exclude>
                         <exclude>com/moviemania/Application**</exclude>
                     </excludes>
                 </configuration>
