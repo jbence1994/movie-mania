@@ -1,7 +1,7 @@
 package com.moviemania.api
 
 import com.moviemania.dao.Movie
-import com.moviemania.external.MovieOperations
+import com.moviemania.movie.MovieOperations
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping

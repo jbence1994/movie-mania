@@ -1,4 +1,4 @@
-package com.moviemania.external
+package com.moviemania.movie
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.moviemania.config.OpenMovieDatabaseAPIConfigurations
