@@ -30,7 +30,7 @@
         <okhttp.version>4.10.0</okhttp.version>
 
         <!-- Maven plugin versions -->
-        <jacoco.version>0.8.8</jacoco.version>
+        <jacoco.version>0.8.11</jacoco.version>
         <ktlint.version>1.6.1</ktlint.version>
 
         <!-- JaCoCo properties -->
