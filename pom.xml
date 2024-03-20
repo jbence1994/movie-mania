@@ -31,7 +31,7 @@
 
         <!-- Maven plugin versions -->
         <jacoco.version>0.8.11</jacoco.version>
-        <ktlint.version>1.6.1</ktlint.version>
+        <ktlint.version>1.16.0</ktlint.version>
 
         <!-- JaCoCo properties -->
         <jacoco.coverage>1</jacoco.coverage>
