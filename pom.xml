@@ -26,7 +26,7 @@
         <detekt.config>${project.basedir}/detekt.yml</detekt.config>
 
         <!-- Project dependency versions -->
-        <mockk.version>1.13.10</mockk.version>
+        <mockk.version>1.13.11</mockk.version>
         <okhttp.version>4.12.0</okhttp.version>
 
         <!-- Maven plugin versions -->
